@@ -1,0 +1,85 @@
+
+
+
+.testimonial-container {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    background-color: #F9FAFB;
+    /* width: 376px; */
+    padding: 4.625em 0;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo .logo-image {
+    margin-right: .625em;
+    width: 28px;
+    height: 28px;
+}
+
+.testimonial-content-container {
+    padding: 0 3em;
+}
+
+.testimonial-content{
+    font-family: 'Inter';
+    font-weight: 380;
+    font-size: 1.25em;
+    color: #111827;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+
+.name, .level {
+    font-size: 1em;
+}
+
+.name {
+    color: #111827;
+}
+
+.level {
+    color: #6B7280;
+    margin-top: .2em;
+
+}
+
+.testimonial-container .logo span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (min-width : 524px) {
+    .testimonial-container {
+        width: 100%;
+        text-align: center;
+    }
+    .name,.level {
+        display: inline-block;
+    }
+
+    .testimonial-content-container {
+        max-width: 768px;
+        margin: 0 auto;
+
+
+    }
+
+    .name::after {
+        content: "/"; /* You can use any character or Unicode */
+        color: #2E59F3;
+        width: 8;
+        height: 20;
+        left: 6px;
+        padding: 0 .5em;
+        font-weight: 700;
+
+    }
+}

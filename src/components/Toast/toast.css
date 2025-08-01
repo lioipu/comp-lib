@@ -1,0 +1,94 @@
+.top-right {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+}
+.top-left {
+    position: fixed;
+    top: 5%;
+    left: 66.5%;
+}
+.bottom-right {
+    position: fixed;
+    top: 85%;
+    left: 5%;
+}
+.bottom-left {
+    position: fixed;
+    top: 85%;
+    left: 66.5%;
+}
+
+.toast {
+    display: flex;
+    border-radius: 6px;
+    gap: 12px;
+    padding: 1em;
+    margin-block: 1em;
+    width: 400px;
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: .875em;
+  
+}
+
+p {
+    margin-top: .5em;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: .875em;
+
+}
+
+
+.success {
+    color: #047857;
+    background-color: #ECFDF5;
+}
+.success div h1 {
+    color: #065F46;
+}
+.success .toast-icon {
+    color:#34D399;
+}
+
+.warning {
+    color: #B45309;
+    background-color: #FFFBEB;
+}
+.warning div h1 {
+    color: #92400E;
+}
+.warning .toast-icon {
+    color:#FBBF24;
+}
+
+.error {
+    color: #B45309;
+    background-color: #FEF2F2;
+}
+.error div h1 {
+    color: #92400E;
+}
+.error .toast-icon {
+    color:#F87171;
+}
+
+.info {
+    color: #1C51B9;
+    background-color: #EFF6FF;
+}
+.info div h1 {
+    color: #1E40AF;
+}
+.info .toast-icon {
+    color:#60A5FA;
+}
+
+.toast-icon {
+  width: 20px;
+  height: 20px;
+}

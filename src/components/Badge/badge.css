@@ -1,0 +1,52 @@
+.badge {
+  font-family: Inter;
+  padding: .125em .75em;
+  margin: 0 .2em;
+  border-radius: 4px;
+}
+
+.pill {
+  border-radius: 12px !important;
+}
+
+.tags-container {
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.green{
+    color: #065F46;
+    background-color: #D1FAE5;
+}
+.red{
+    color: #991B1B;
+    background-color: #FEE2E2;
+}
+.yellow{
+    color: #92400E;
+    background-color: #FEF3C7;
+}
+.blue{
+    color: #1E40AF;
+    background-color: #DBEAFE;
+}
+.indigo{
+    color: #3730A3;
+    background-color: #E0E7FF;
+}
+.purple{
+    color: #5B21B6;
+    background-color: #EDE9FE;
+}
+.pink{
+    color: #9D174D;
+    background-color: #FCE7F3;
+}
+
+.gray {
+    color: #1F2937;
+    background-color: #F3F4F6;
+
+
+}

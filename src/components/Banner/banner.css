@@ -1,0 +1,60 @@
+.banner {
+  display: flex;
+  border-radius: 6px;
+  gap: 12px;
+  padding: 1em;
+  margin-block: 1em;
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: .875em;
+  margin-block: 0;
+  
+}
+
+p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: .875em;
+  margin-bottom: 0;
+}
+
+.success p {
+  color: #047857;
+}
+
+.warning p {
+  color: #B45309;
+}
+
+.error p {
+  color: #B45309;
+}
+
+.neutral p {
+  color: #1C51B9;
+}
+
+.success {
+  color: #065F46;
+  background-color: #ECFDF5;
+}
+.warning {
+  color: #92400E;
+  background-color: #FFFBEB;
+}
+.error {
+  color: #92400E;
+  background-color: #FEF2F2;
+}
+.neutral {
+  color: #1E40AF;
+  background-color: #EFF6FF;
+}
+
+.banner-icon {
+  width: 20px;
+  height: 20px;
+}
