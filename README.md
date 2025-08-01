@@ -1,13 +1,58 @@
+# 📦 React Component Library
 
-# React + Vite
+A clean and customizable collection of reusable UI components built with React.
+Perfect for fast prototyping or integrating into your own apps.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📁 Project Structure
+- `components/`       # Reusable components like Badge, Card, Tooltip, etc.
+  
+- `hooks/`            # Custom hooks (e.g., useHover, usePopup)
+  
+- `assets/`           # Shared assets (e.g., icons, images)
+  
+- `style.css`         # Global styles
+  
+- `App.jsx`           # Demo/test entry point
+  
+- `index.jsx`         # Entry file
 
-Currently, two official plugins are available:
+## 🧩 Components Included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Badge** – Status labels with custom styles
+- **Banner** – Alert/info banners with icons
+- **Card** – Content blocks with brand assets
+- **Testimonial** – Customer quotes and social proof
+- **Toast** – Temporary messages/notifications
+- **Tooltip** – Hoverable tooltips
+- **TWI** – Profile-style component (e.g., image + info block)
+    
 
-## Expanding the ESLint configuration
+## 🪝 Custom Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `useHover` – Detect hover state on elements
+- `usePopup` – Manage popup toggle logic
+
+    
+## 🚀 Getting Started
+
+```
+git clone https://github.com/lioipu/comp-lib
+cd comp-lib
+npm install
+npm run dev
+```
+
+## 🛠 Usage
+
+Each component is modular and can be imported as needed:
+
+import { Badge } from './components/Badge/Badge';
+import { useHover } from './hooks/useHover';
+
+## 📷 Demo
+
+You can use App.jsx to preview and test components during development.
+
+## 📄 License
+
+MIT — Feel free to use and modify.
